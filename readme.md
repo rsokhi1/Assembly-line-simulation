@@ -448,3 +448,13 @@ From a command prompt, execute the following command:
 and follow the instructions.
 
 **A successful submission does not guarantee full credit!**
+
+#### Command to build and run the program
+
+```bash
+g++-14 -Wall CustomerOrder.cpp LineManager.cpp Station.cpp Utilities.cpp Workstation.cpp ms3_prof.cpp -o ms3
+```
+
+```bash
+./ms3 Stations1.txt Stations2.txt CustomerOrders.txt AssemblyLine.txt
+```
